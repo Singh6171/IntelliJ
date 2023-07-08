@@ -7,29 +7,48 @@ public class CustomerCareApplication {
 
         System.out.println("Customer Care Application");
         System.out.println("Enter value from below");
-        System.out.println("1 For HR");
-        System.out.println("2 For Accounting");
-        System.out.println("3 For Dispatch");
-        System.out.println("4 For Repair");
+        System.out.println("1 For English");
+        System.out.println("2 For French");
 
-
-        int a;
+        int language;
         Scanner sc = new Scanner(System.in);
         System.out.println("enter a value");
-        a = sc.nextInt();
+        language = sc.nextInt();
 
-        switch (a){
+        switch (language){
             case 1:
-                System.out.print("Forwarding to HR");
+                System.out.print("Forwarding to English Menu");
+                System.out.println("Enter value from below");
+                System.out.println("1 For Home Internet");
+                System.out.println("2 For Wireless");
+                System.out.println("3 For Accounts");
+                System.out.println("4 For Billing");
+
+                int departments;
+                System.out.println("enter a value");
+                departments = sc.nextInt();
+
+                switch(departments){
+                    case 1:
+                        System.out.println("Welcome to Home Internet Menu");
+                        break;
+                    case 2:
+                        System.out.println("Welcome to Wireless Menu");
+                        break;
+                    case 3:
+                        System.out.println("Welcome to Accounts Menu");
+                        break;
+                    case 4:
+                        System.out.println("Welcome to Billing Menu");
+                        break;
+                    default:
+                        System.err.println("Wrong input");
+
+
+                }
                 break;
             case 2:
-                System.out.print("Forwarding to Accounting");
-                break;
-            case 3:
-                System.out.print("Forwarding to Dispatch");
-                break;
-            case 4:
-                System.out.print("Forwarding to Repair");
+                System.out.print("Forwarding to French Menu");
                 break;
 
             default:
