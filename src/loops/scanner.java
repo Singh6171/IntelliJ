@@ -8,5 +8,7 @@ public class scanner {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter a number");
         x = scanner.nextInt();
+
+        System.out.print("Value of X is " + x);
     }
 }
