@@ -64,6 +64,7 @@ public class Calculator {
 
         } else {
             System.out.println("Wrong Input");
+
         }
     }
 }
