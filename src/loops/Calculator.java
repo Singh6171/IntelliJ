@@ -9,9 +9,9 @@ public class Calculator {
         System.out.println("Calculator Application");
         System.out.println("Enter value from below");
         System.out.println("+ For Addition");
-        System.out.println("- For Subtarction");
+        System.out.println("- For Subtraction");
         System.out.println("* For Multiplication");
-        System.out.println("/ For Divison");
+        System.out.println("/ For Division");
 
 
 
@@ -39,7 +39,7 @@ public class Calculator {
             int y;
             System.out.println("enter 2nd value");
             y = sc.nextInt();
-            System.out.print("Subtration of the two values is " + (x-y));
+            System.out.print("Subtraction of the two values is " + (x-y));
 
         } else if (a == '*') {
             System.out.println("Multiplication");
@@ -59,7 +59,7 @@ public class Calculator {
             int y;
             System.out.println("enter 2nd value");
             y = sc.nextInt();
-            System.out.print("Divison of the two values is " + (x/y));
+            System.out.print("Division of the two values is " + (x/y));
 
 
         } else {
